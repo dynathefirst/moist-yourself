@@ -28,7 +28,7 @@ public class CauldronMixin {
                     state = state.with(Properties.LEVEL_3, waterLevel - 1);
                     world.setBlockState(pos, state);
 
-                    player.addStatusEffect(new StatusEffectInstance(ModEffects.MOIST, 40000, 0));
+                    player.addStatusEffect(new StatusEffectInstance(ModEffects.MOIST, 3600, 0));
                 } else {
                     world.setBlockState(pos, Blocks.CAULDRON.getDefaultState());
                 }
