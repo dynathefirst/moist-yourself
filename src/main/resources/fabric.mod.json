@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "moistyourself",
+	"version": "${version}",
+	"name": "Moist Yourself",
+	"description": "A quick and easy mod for Riptide users. Upon standing in a cauldron, you gain the \"moist\" effect, which acts like rain.",
+	"authors": [
+		"epiccool - Main Author",
+		"Diemant - Contributor"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/moistyourself/MoistYourself.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.epiccool.moistyourself.MoistYourself"
+		]
+	},
+	"mixins": [
+		"moistyourself.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

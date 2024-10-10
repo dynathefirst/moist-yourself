@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.epiccool.moistyourself.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"CauldronMixin",
+		"EntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
